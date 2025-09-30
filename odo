@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>小戸第二レッドソックス｜公式LP</title>
+  <meta name="description" content="少年野球チーム 小戸第二レッドソックスの公式ランディングページ。体験参加・入部案内、試合予定、選手、試合結果、SNS、アクセスまで。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand:#ef4444; --ink:#991b1b}
+    html{scroll-behavior:smooth}
+    body{font-family:'Noto Sans JP', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial}
+    .container{max-width:1200px}
+    .headline{font-family:'Bebas Neue', system-ui, sans-serif; letter-spacing:.03em}
+    .glass{backdrop-filter:saturate(180%) blur(8px); background:rgba(255,255,255,.08)}
+    .shadow-soft{box-shadow:0 10px 30px rgba(2,6,23,.08),0 2px 8px rgba(2,6,23,.06)}
+    .no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-slate-950/70 border-b border-white/10 backdrop-blur">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="https://placehold.co/44x44?text=RS" alt="ロゴ（仮）" class="rounded-lg"/>
+        <span class="headline text-2xl">小戸第二レッドソックス</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about">ABOUT</a>
+        <a href="#schedule">SCHEDULE</a>
+        <a href="#members">選手紹介</a>
+        <a href="#news">RESULTS</a>
+        <a href="#instagram">INSTAGRAM</a>
+        <a href="#access">ACCESS</a>
+        <a href="#contact" class="ml-2 inline-flex items-center px-4 py-2 rounded-lg bg-[var(--brand)] hover:bg-red-500">JOIN</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden w-10 h-10 rounded-lg border border-white/10">≡</button>
+    </div>
+    <div id="mobileNav" class="md:hidden hidden border-t border-white/10 bg-slate-950/90 backdrop-blur">
+      <div class="container mx-auto px-4 py-3 grid gap-2 text-sm">
+        <a href="#about" class="py-2">ABOUT</a>
+        <a href="#schedule" class="py-2">SCHEDULE</a>
+        <a href="#members" class="py-2">選手紹介</a>
+        <a href="#news" class="py-2">RESULTS</a>
+        <a href="#instagram" class="py-2">INSTAGRAM</a>
+        <a href="#access" class="py-2">ACCESS</a>
+        <a href="#contact" class="py-2 text-center rounded-lg bg-[var(--brand)]">JOIN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://placehold.co/1920x1080?text=RED+SOX+HERO" class="w-full h-full object-cover" alt="ヒーロー画像（仮）"/>
+      <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+    <div class="relative container mx-auto px-4 py-28 md:py-40">
+      <div class="max-w-3xl glass border border-white/10 rounded-2xl p-6 md:p-10">
+        <p class="tracking-widest text-xs text-white/80">COMMUNITY BASEBALL TEAM</p>
+        <h1 class="headline text-5xl md:text-7xl mt-2">小戸第二レッドソックス</h1>
+        <p class="mt-4 text-white/90">宮崎県の少年野球チーム。未経験OK、体験参加歓迎。週末に練習・試合を行っています。</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center px-6 py-3 rounded-xl bg-[var(--brand)] hover:bg-red-500">体験申込</a>
+          <a href="#schedule" class="inline-flex items-center px-6 py-3 rounded-xl border border-white/20 hover:bg-white/5">今月の予定</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="bg-slate-900/60">
+    <div class="container mx-auto px-4 py-14 md:py-20">
+      <h2 class="headline text-4xl">SCHEDULE</h2>
+      <div id="scheduleWrap" class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+    </div>
+  </section>
+
+  <!-- Members -->
+  <section id="members" class="bg-slate-950">
+    <div class="container mx-auto px-4 py-14 md:py-20">
+      <h2 class="headline text-4xl">選手紹介 <span class="ml-3 text-base align-middle text-slate-400">ROSTER</span></h2>
+      <p class="text-slate-300 mt-2">横スライダーでPLAYERを閲覧できます（仮画像）。</p>
+      <div class="relative mt-6">
+        <!-- スライダー（省略：元のまま） -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram -->
+  <section id="instagram" class="bg-slate-950">
+    <div class="container mx-auto px-4 py-14 md:py-20">
+      <h2 class="headline text-4xl">INSTAGRAM</h2>
+      <p class="text-slate-300 mt-2">
+        <a href="https://www.instagram.com/odo_softball_team/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4 hover:text-white">@odo_softball_team</a>
+      </p>
+      <div id="igEmbeds" class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- 埋め込み1 -->
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DODXRRTkmyz/" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"></blockquote>
+        <!-- 埋め込み2 -->
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DK0T5FNzN9f/" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"></blockquote>
+        <!-- 埋め込み3 -->
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DUMMYLINK/" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:calc(100% - 2px);"></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Access -->
+  <section id="access" class="bg-slate-900/60">
+    <div class="container mx-auto px-4 py-14 md:py-20">
+      <h2 class="headline text-4xl">ACCESS</h2>
+      <div class="mt-6">
+        <div class="rounded-2xl overflow-hidden border border-white/10 h-80">
+          <iframe src="https://www.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%20%E5%B0%8F%E6%88%B8%E5%B0%8F%E5%AD%A6%E6%A0%A1%20%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-slate-950">
+    <div class="container mx-auto px-4 py-14 md:py-20">
+      <h2 class="headline text-4xl">JOIN US</h2>
+      <p class="text-slate-300 mt-2">体験・入部希望は以下フォームより。</p>
+      <form class="bg-white text-slate-800 rounded-2xl p-6 shadow-soft grid gap-4" onsubmit="event.preventDefault(); alert('送信（ダミー）ありがとうございます！');">
+        <label class="grid gap-2">
+          <span class="text-sm font-medium">お名前</span>
+          <input type="text" required class="border border-slate-300 rounded-lg px-3 py-2" placeholder="山田 太郎" />
+        </label>
+        <label class="grid gap-2">
+          <span class="text-sm font-medium">メール</span>
+          <input type="email" required class="border border-slate-300 rounded-lg px-3 py-2" placeholder="example@mail.com" />
+        </label>
+        <label class="grid gap-2">
+          <span class="text-sm font-medium">メッセージ</span>
+          <textarea rows="4" class="border border-slate-300 rounded-lg px-3 py-2"></textarea>
+        </label>
+        <button class="mt-2 inline-flex justify-center items-center px-5 py-3 rounded-xl bg-[var(--brand)] text-white hover:bg-red-500">送信（ダミー）</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-slate-400">
+    <div class="container mx-auto px-4 py-8 text-sm flex justify-between">
+      <p>© <span id="year"></span> 小戸第二レッドソックス</p>
+      <p><a href="https://www.instagram.com/odo_softball_team/" target="_blank" class="hover:text-slate-200">@odo_softball_team</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // 年表示
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // モバイルメニュー
+    const _menuBtn = document.getElementById('menuBtn');
+    if (_menuBtn) {
+      _menuBtn.addEventListener('click', () => {
+        const _mobile = document.getElementById('mobileNav');
+        if (_mobile) _mobile.classList.toggle('hidden');
+      });
+    }
+
+    // 予定カード
+    const schedule = [
+      {date:'10/05 (日) 09:00', type:'練習', title:'基礎＋実戦形式', place:'小戸第二球場'},
+      {date:'10/12 (日) 13:00', type:'練習試合', title:'vs △△クラブ', place:'△△河川敷グラウンド'},
+      {date:'10/19 (日) 09:00', type:'リーグ戦', title:'第3節', place:'県営□□球場'},
+      {date:'10/26 (日) 09:00', type:'練習', title:'守備・走塁強化', place:'小戸第二球場'}
+    ];
+    const wrap = document.getElementById('scheduleWrap');
+    if (wrap) {
+      schedule.forEach(r => {
+        const card = document.createElement('article');
+        card.className = 'border border-white/10 rounded-2xl p-5';
+        card.innerHTML = `<p class="text-xs text-slate-400">${r.date}</p>`+
+          `<h3 class="font-semibold mt-1">${r.type}｜${r.title}</h3>`+
+          `<p class="text-sm text-slate-300">${r.place}</p>`;
+        wrap.appendChild(card);
+      });
+    }
+  </script>
+
+  <!-- Instagram公式スクリプト -->
+  <script async src="//www.instagram.com/embed.js"></script>
+</body>
+</html>
